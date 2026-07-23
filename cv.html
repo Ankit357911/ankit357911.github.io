@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ankit Chandra Karn - CV</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #2b2d42;
+      background: #ffffff;
+      width: 8.5in;
+      height: 11in;
+      padding: 0.45in 0.5in;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* Header styling */
+    .header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .name {
+      font-size: 20pt;
+      font-weight: 700;
+      color: #1e293b;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+    .title {
+      font-size: 11pt;
+      font-weight: 600;
+      color: #2563eb;
+      margin-top: 2px;
+    }
+    .contact {
+      font-size: 8.5pt;
+      color: #475569;
+      margin-top: 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .contact span {
+      display: inline-flex;
+      align-items: center;
+    }
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    /* Section styling */
+    .section {
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #1e293b;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+    }
+
+    /* Summary */
+    .summary-text {
+      color: #334155;
+      font-size: 9pt;
+      text-align: justify;
+    }
+
+    /* Skills Grid */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .skills-table td {
+      padding: 2px 0;
+      vertical-align: top;
+      font-size: 8.8pt;
+    }
+    .skills-table td.cat {
+      font-weight: 700;
+      color: #1e293b;
+      width: 22%;
+    }
+    .skills-table td.val {
+      color: #334155;
+      width: 78%;
+    }
+
+    /* Projects */
+    .project-item {
+      margin-bottom: 7px;
+    }
+    .project-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .project-name {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #1e293b;
+    }
+    .project-tech {
+      font-size: 8.3pt;
+      font-weight: 600;
+      color: #2563eb;
+    }
+    .project-bullets {
+      margin-top: 2px;
+      padding-left: 14px;
+    }
+    .project-bullets li {
+      font-size: 8.7pt;
+      color: #334155;
+      margin-bottom: 1.5px;
+    }
+
+    /* Education */
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .edu-deg {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #1e293b;
+    }
+    .edu-school {
+      font-size: 8.8pt;
+      color: #475569;
+    }
+    .edu-date {
+      font-size: 8.8pt;
+      font-weight: 600;
+      color: #2563eb;
+    }
+
+    /* Highlights */
+    .highlights-bullets {
+      padding-left: 14px;
+    }
+    .highlights-bullets li {
+      font-size: 8.7pt;
+      color: #334155;
+      margin-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name">ANKIT CHANDRA KARN</div>
+    <div class="title">Software & AI Developer</div>
+    <div class="contact">
+      <span>📍 Lalitpur, Nepal</span>
+      <span>📞 +977-9807663911</span>
+      <span>✉️ <a href="mailto:ankitkarn357@gmail.com">ankitkarn357@gmail.com</a></span>
+      <span>🔗 <a href="https://linkedin.com/in/ankit-karn-8798ba3b5" target="_blank">LinkedIn</a></span>
+      <span>💻 <a href="https://github.com/Ankit357911" target="_blank">GitHub</a></span>
+      <span>🌐 <a href="https://ankitkarn357911.github.io" target="_blank">Portfolio</a></span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+      IT student and software developer specializing in building practical AI systems, REST APIs, desktop tools, and full-stack web applications. Experienced in developing end-to-end software solutions—ranging from intelligent speech/RAG platforms to C# / .NET desktop applications and FastAPI backend services.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="cat">AI & ML Systems:</td>
+        <td class="val">Retrieval-Augmented Generation (RAG), Speech-to-Text (STT), Text-to-Speech (TTS), Vector Indexing, Intent Recognition, Wav2Lip Sync</td>
+      </tr>
+      <tr>
+        <td class="cat">Backend & Frameworks:</td>
+        <td class="val">FastAPI, Python, .NET / .NET Core, ASP.NET Web API, RESTful API Architecture, Monorepos, JSON APIs</td>
+      </tr>
+      <tr>
+        <td class="cat">Programming Languages:</td>
+        <td class="val">Python, C#, Java, C, C++, JavaScript, HTML5, CSS3</td>
+      </tr>
+      <tr>
+        <td class="cat">Desktop & Embedded:</td>
+        <td class="val">Windows Forms (WinForms) UI, Java Swing, ESP32 Microcontroller IoT Integration</td>
+      </tr>
+      <tr>
+        <td class="cat">Databases & Tools:</td>
+        <td class="val">SQL Server, SQLite, Git, Linux, Postman, Visual Studio, VS Code</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Key Software & AI Projects</div>
+
+    <div class="project-item">
+      <div class="project-head">
+        <span class="project-name">ANA – Smart AI Receptionist Platform</span>
+        <span class="project-tech">Python, FastAPI, RAG, Speech AI (STT/TTS), React</span>
+      </div>
+      <ul class="project-bullets">
+        <li>Architected a multi-service AI receptionist monorepo with real-time voice processing and automated query handling.</li>
+        <li>Implemented a Retrieval-Augmented Generation (RAG) pipeline with custom document indexing for contextual responses.</li>
+        <li>Integrated Speech-to-Text (STT) and fallback Text-to-Speech (TTS) audio workflows alongside Wav2Lip visual synchronization.</li>
+        <li>Built async FastAPI REST endpoints connecting web frontend interfaces with background AI processing services.</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <div class="project-head">
+        <span class="project-name">MiQ – Desktop AI Assistant</span>
+        <span class="project-tech">Java Swing, FastAPI, Python</span>
+      </div>
+      <ul class="project-bullets">
+        <li>Engineered a desktop AI assistant supporting voice-triggered commands and intent-based execution.</li>
+        <li>Designed REST API data exchange contracts between Java Swing UI and Python backend services.</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <div class="project-head">
+        <span class="project-name">PharmaCare – Medicine Management System</span>
+        <span class="project-tech">C#, .NET, WinForms, SQL</span>
+      </div>
+      <ul class="project-bullets">
+        <li>Built a desktop inventory and billing application with full CRUD operations, expiry tracking, and SQL database synchronization.</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <div class="project-head">
+        <span class="project-name">SmartSchool – School Management System</span>
+        <span class="project-tech">C#, .NET, WinForms</span>
+      </div>
+      <ul class="project-bullets">
+        <li>Developed an administrative desktop tool for managing teacher attendance, leave processing, and scheduling workflows.</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <div class="project-head">
+        <span class="project-name">FoodPrint – Recipe & Culinary Web Application</span>
+        <span class="project-tech">Full-Stack Web Development</span>
+      </div>
+      <ul class="project-bullets">
+        <li>Created a recipe discovery platform featuring personalized user recommendations and administrative content management.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div>
+        <span class="edu-deg">Bachelor of Computer Applications (BCA)</span> — <span class="edu-school">Kantipur City College (KCC), Purbanchal University</span>
+      </div>
+      <span class="edu-date">2022 – Present | VIII Semester</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Highlights & Strengths</div>
+    <ul class="highlights-bullets">
+      <li>Proven hands-on experience building functional AI prototypes, speech processing systems, and RAG pipelines.</li>
+      <li>Strong software engineering practices: modular codebases, clean API contracts, and object-oriented design.</li>
+      <li>Self-driven problem solver skilled in rapid prototype development and cross-domain technology integration.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
